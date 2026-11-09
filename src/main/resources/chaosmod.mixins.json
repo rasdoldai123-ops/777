@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.chaosmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "chaosmod.refmap.json",
+  "mixins": [
+    "EntityDimensionsMixin",
+    "BlockFrictionMixin"
+  ],
+  "client": [
+    "MouseHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
